@@ -1,0 +1,45 @@
+
+.anime-content {
+  min-height: 250px;
+}
+.card-wrapper {
+  position: absolute;
+  width: 192px;
+  height: 264px;
+}
+/* .cards-list {
+  width: 1225px;
+  height: 348px;
+  transform: scale();
+} */
+.card-first {
+  left: 0px;
+  top: 0px;  
+  transform: rotate(15deg);
+}
+
+.card-second {
+  left: 255px;
+  top: 62px;
+  transform: rotate(7.5deg);
+}
+
+.card-third {
+  left: 510px;
+  top: 84px;
+  
+}
+
+.card-reverse-second {
+  /* left: 0%; */
+  left: 772px;
+  top: 62px;  
+  transform: rotate(-7.5deg);
+}
+
+.card-reverse-first {
+  /* left: 0%; */
+  left:1026px;
+  top: 0px;
+  transform: rotate(-15deg);
+}
